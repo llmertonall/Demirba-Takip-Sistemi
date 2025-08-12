@@ -1,0 +1,53 @@
+# VS Code workspace ayarları
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# Debug ve test dosyaları
+debug_*
+test_*
+*_test.php
+*_debug.php
+
+# Log dosyaları
+*.log
+error_log
+
+# Cache files
+cache/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP temp files
+*.php~
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (eğer eklenirse)
+node_modules/
+
+# Vendor folder (Composer)
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
